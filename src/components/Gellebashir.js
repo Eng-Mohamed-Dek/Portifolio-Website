@@ -17,37 +17,31 @@ export const projectsData = [
   {
     title: "HTML and CSS",
     get: "gellebashiir",
-    location: "https://gellebashiir.com/courses/html-and-css-beginner-to-advanced-course/",
+    location: "https://gellebashir.com/courses/html-and-css-beginner-to-advanced-course/",
     image: project_img_1
   },
   {
     title: "Javascript",
     get: "gellebashiir",
-    location: "https://gellebashiir.com/courses/javascript-beginner-to-advanced-full-course/",
+    location: "https://gellebashir.com/courses/modern-javascript-master-course/",
     image: project_img_2
   },
   {
     title: "Git and Github",
     get: "gellebashiir",
-    location: "https://gellebashiir.com/courses/git-github-for-developers-from-basics-to-advanced/",
+    location: "https://gellebashir.com/courses/git-and-git-for-beginners/",
     image: project_img_3
   },
   {
     title: "Tailwind CSS",
     get: "gellebashiir",
-    location: "https://gellebashiir.com/courses/tailwind-css-full-course/",
+    location: "https://gellebashir.com/courses/tailwind-css-modern-course/",
     image: project_img_4
   },
   {
     title: "React Js",
     get: "gellebashiir",
-    location: "https://gellebashiir.com/courses/react-mastery-from-zero-to-hero//",
+    location: "https://gellebashir.com/courses/ultimate-react-js-course/",
     image: project_img_5
   },
-  {
-    title: "Node js Express Js",
-    get: "gellebashiir",
-    location: "https://gellebashiir.com/courses/mongodb-nosql-database-full-course/",
-    image: project_img_6
-  }
 ];
