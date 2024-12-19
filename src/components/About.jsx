@@ -17,7 +17,7 @@ const About = () => {
       <h1 className='font-semibold md:text-5xl text-3xl font-mono'>Eng Mohamed Dek</h1>
       <ScrollTrigger onEnter={() => setCount(true)} onExit={() => setCount(false)}>
         <div id="services" class="w-full md:text-center text-left md:px-[20%] mt-5 text text-[16px] font-normal">
-          Waxaan ahay arday bartay IT-skills ku nool Magaaladda Muqdisho, Waxaan bilaabay barashada IT-ka june, 2023. Anigoo aad u xiisanaya siinaya ahmiyad weyn siiyay. Maanan joojin barashada IT-ka ilaa aan ka go'aan saday inaan ku shaqeeyo oo aan ku guuleystay qeybteydii ugu horeysay ee Graphic Design kadibna waxaan Aasaasay Hirkaab Academy Dec, 2023 oo laga barto xirfadaha kala graphic design, video editing, web design iyo web development, waxaan sidoo kale lasoo shaqeeyayaa <a href="https://gellebashir.com/course-category/development/" className='text-blue-600'>Gellebashir Academy</a> iyo <a href="https://baroxirfad.com/?s=Eng+Mohamed+Dek&post_type=courses" className='text-blue-600'>Baroxirfad</a> oo aan ka bixiyo Fullstack Web Development Courses. To See More Visit My Social Media Platforms 👇.
+          Waxaan ahay arday bartay IT-skills ku nool Magaaladda Muqdisho, Waxaan bilaabay barashada IT-ka june, 2023. Anigoo aad u xiisanaya siinaya ahmiyad weyn siiyay. Maanan joojin barashada IT-ka ilaa aan ka go'aan saday inaan ku shaqeeyo oo aan ku guuleystay qeybteydii ugu horeysay ee Graphic Design kadibna waxaan Aasaasay Hirkaab Academy Dec, 2023 oo laga barto xirfadaha kala graphic design, video editing, web design iyo web development, Waxaan sidoo kale la shaqeeyaa <a href="https://gellebashir.com/course-category/development/" className='text-blue-600'>Gellebashir Academy</a> iyo <a href="https://baroxirfad.com/?s=Eng+Mohamed+Dek&post_type=courses" className='text-blue-600'>Baroxirfad</a> oo aan ka bixiyo Fullstack Web Development Courses. To See More Visit My Social Media Platforms 👇.
         </div>
         <div className="flex justify-center gap-6 text-3xl mt-10 mb-10">
           <div className="footer-icons-container">
@@ -59,13 +59,6 @@ const About = () => {
       <ScrollTrigger onEnter={() => setCount(true)} onExit={() => setCount(false)}>
         <div id="services" class="w-full md:px-[10%]">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-6">
-            <div class="border border-gray-500 rounded-lg px-8 py-10 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:-translate-y-1 duration-500 text-center">
-              <h3 class="text-6xl text-gray-700 font-bold mb-5">
-                <p>{count && <CountUp start={0} end={200} duration={2} delay={0} />}
-                  <span>+</span></p>
-              </h3>
-              <p class="text-sm text-gray-600">in ka baddan 200 designs oo aan u qabtay dad yoo kala duwan offline iyo online-ba. oo aan u samey dad ku kala dalka iyo diwadaba.</p>
-            </div>
             <div class="border border-gray-500 rounded-lg px-8 py-10 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:-translate-y-1 duration-500 text-center">
               <h3 class="text-6xl text-gray-700 font-bold mb-5">
                 <p>{count && <CountUp start={0} end={5000} duration={2} delay={0} />}
