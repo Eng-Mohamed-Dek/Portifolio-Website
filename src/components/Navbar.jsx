@@ -16,7 +16,10 @@ const Navbar = () => {
                     <li><a href="#About">About</a></li>
                     <li><a href="#Testimnials">Testimonials</a></li>
                 </ul>
-                <button className='hidden md:flex bg-[#00CD8E] text-white px-8 py-2 rounded-full cursor-pointer font-normal text-[18px] items-center justify-center'><a href="#Contact">Contact Me</a></button>
+                <a href="./all certificates.pdf" download
+                    class="px-4 flex items-center gap-4 py-3 rounded-full border border-gray-500">Certificates<img
+                        src="/download-icon.png" class="w-4" /></a>
+                {/* <button className='hidden md:flex bg-[#00CD8E] text-white px-8 py-2 rounded-full cursor-pointer font-normal text-[18px] items-center justify-center'><a href="#Contact">Contact Me</a></button> */}
                 <img className='md:hidden w-7' src='./menu-black.png' onClick={() => setMenu(true)} />
             </div>
 
