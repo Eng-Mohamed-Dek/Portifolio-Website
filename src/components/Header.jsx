@@ -5,6 +5,9 @@ const Header = () => {
   return (
     <div className='min-h-screen bg-cover bg-center overflow-hidden flex justify-center items-center' style={{ background: "url('image.jpg')" }}>
       <Navbar />
+      <a href="./all certificates.pdf" download
+      class="absolute top-10 right-20 px-5 flex items-center gap-4 py-3 rounded-full border border-gray-500">Certificates<img
+        src="/download-icon.png" class="w-4" /></a>
       {/* header style */}
       <div className='container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 font-semibold'>
         <h1 className="text-3xl sm:text-6xl leading-relaxed md:text-[80px] max-w-4xl inline-block font-semibold text-[#002840]"> <span className='font-extralight'>Explore </span>My Coding Journey and <span className='font-extralight'>Let Me Join</span></h1>
