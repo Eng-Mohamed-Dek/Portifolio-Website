@@ -57,7 +57,7 @@ const About = () => {
       {/* container  */}
       <h1 className='font-semibold text-2xl font-mono'>Tirada Shaqooyin ee aan ku guuleystay in aan ku jiray Freelancingka iyo Tutoring</h1>
       <ScrollTrigger onEnter={() => setCount(true)} onExit={() => setCount(false)}>
-        <div id="services" class="w-full md:px-[10%]">
+        <div id="services" class="w-[90%] ml-72 md:px-[10%]">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-6">
             <div class="border border-gray-500 rounded-lg px-8 py-10 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:-translate-y-1 duration-500 text-center">
               <h3 class="text-6xl text-gray-700 font-bold mb-5">
