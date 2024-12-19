@@ -1,0 +1,38 @@
+/* banner style  */
+.banner__container {
+  /* padding-block: 5rem; */
+  overflow: hidden;
+}
+
+.banner__wrapper {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+  animation: scroll 20s linear infinite;
+  cursor: pointer;
+}
+
+.banner__wrapper:hover {
+  animation: none;
+}
+
+.banner__wrapper img {
+  width: 450px;
+  margin: 7rem 0rem;
+
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-90% - 4rem));
+  }
+}
+
+.banner__wrapper .images {
+  width: 100px;
+}
+
+.text {
+  line-height: 36px;
+}
