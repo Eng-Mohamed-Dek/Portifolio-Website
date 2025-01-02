@@ -54,7 +54,7 @@ const About = () => {
 
 
 
-      {/* container  */}
+      {/* container 
       <h1 className='font-semibold text-2xl font-mono'>Tirada Shaqooyin ee aan ku guuleystay in aan ku jiray Freelancingka iyo Tutoring</h1>
       <ScrollTrigger onEnter={() => setCount(true)} onExit={() => setCount(false)}>
         <div id="services" class="w-[96%] ml-56 md:px-[10%]">
@@ -83,6 +83,7 @@ const About = () => {
           </div>
         </div>
       </ScrollTrigger>
+       */}
       <h1 className='font-semibold text-2xl font-mono'>Xirfadaha aan u diyaarsanahay inaan ku shaqeeyo</h1>
       <div id="services" class="w-full md:px-[10%]">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-10 gap-6">
